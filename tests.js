@@ -45,6 +45,39 @@ describe("set sides", function() {
  })
 })
 
+
+describe(“create object with values”, function () {
+   it(“creates an object with values” function () {
+     expect(podFunction.createDice(6).to.deep.equal {
+        1: [1],
+        2: [2],
+        3: [3],
+        4: [4],
+        5: [5],
+        6: [6]
+      }
+     });
+   })
+ })
+
+
+describe(“create object with images”, function () {
+   it(“creates an object with images” function () {
+     expect(podFunction.createDice(6).to.deep.equal {
+        1: [“image placeholder1”],
+        2: [“image placeholder1"],
+        3: [“image placeholder1”],
+        4: [“image placeholder1"],
+        5: [“image placeholder1”],
+        6: [“image placeholder1"]
+      }
+     });
+   })
+ })
+
+
+
+
 describe("get image", function() {
       it("returns the image associated with the side", function() {
         expect(podFunction.getImage(dice .1)).to.equal("image placeholder1");
