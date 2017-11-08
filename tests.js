@@ -3,11 +3,11 @@ const podFunction = require('../threePeas.js');
 
 let blankDice = {};
 let dice = {  1: [1, "image placeholder1"],
-              2: [2,"image placeholder1"],
-              3: [3, "image placeholder1"],
-              4: [4, "image placeholder1"],
-              5: [5, "image placeholder1"],
-              6: [6, "image placeholder1"]}
+              2: [2,"image placeholder2"],
+              3: [3, "image placeholder3"],
+              4: [4, "image placeholder4"],
+              5: [5, "image placeholder5"],
+              6: [6, "image placeholder6"]}
 
 
 describe("create dice", function () {
