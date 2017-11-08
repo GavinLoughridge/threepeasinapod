@@ -54,11 +54,8 @@ describe("get value", function() {
             it("returns the value associated with the side", function() {
                 expect(podFunction.getValue(dice .7)).to.equal(
                     "Pick a number 1-6");
-
-
-[3:00]
+                })
 })
-      })
 
 
 describe(“create object with values”, function () {
