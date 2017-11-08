@@ -12,7 +12,7 @@ let dice = {  1: [1, "image placeholder1"],
 
 describe("create dice", function () {
   it("creates a Dice object", function () {
-     expect(podFunction.createDice()).to.be.a('object');
+     expect(podFunction.createDice(3)).to.be.a('object');
   })
 })
 
