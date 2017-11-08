@@ -17,3 +17,4 @@ Stretch goals
 - add fancy animations
 - weight the dice
 - multiple dice in a 'Set'
+- be able to keep a log of previous rolls
