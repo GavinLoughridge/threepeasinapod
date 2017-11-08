@@ -6,3 +6,19 @@ describe("create dice", function () {
      expect(podFunction.createDice()).to.be.a('object');
   })
 })
+
+describe("roll function", function () {
+  it("returns a random number", function () {
+     expect(podFunction.roll(dice)).to.be.a('number');
+  })
+
+  it("returns another random number", function () {
+     expect(podFunction.roll(dice)).to.be.a('number');
+  })
+
+  it("returns yet another random number", function () {
+     expect(podFunction.roll(dice)).to.be.a('number');
+  })
+
+
+})
